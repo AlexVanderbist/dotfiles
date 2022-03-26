@@ -1,7 +1,6 @@
 # Dotfiles
 
 TODO:
--zsh plugins as submodules
 -install script
 
 ## Credits
