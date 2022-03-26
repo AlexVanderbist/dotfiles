@@ -1,0 +1,7 @@
+[core]
+    excludesfile = /Users/alex/.global-gitignore
+[user]
+	name = Alex Vanderbist
+	email = alex.vanderbist@gmail.com
+[pull]
+	rebase = true
