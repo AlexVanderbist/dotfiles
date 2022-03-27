@@ -3,7 +3,7 @@
 export DOTFILES=$HOME/.dotfiles
 
 info() {
-    printf "\r\n  \e[1;45m $1 \e[0m\n\n"
+    printf "\r\n\e[1;45m $1 \e[0m\n"
 }
 
 info "Setting up your Mac..."
