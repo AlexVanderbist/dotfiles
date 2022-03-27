@@ -28,6 +28,8 @@ brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn' # Needed to install fonts
 brew 'doctl'
 brew 'wget'
+brew 'gpg'
+brew 'git-secret'
 
 # Spatie Medialibrary
 brew 'jpegoptim'

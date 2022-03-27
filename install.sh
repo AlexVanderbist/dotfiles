@@ -32,6 +32,17 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file $DOTFILES/Brewfile
 
+# Install GPG keys
+gpg --import-options restore --import $HOME/.gnupg/private.gpg
+gpg --import-ownertrust $HOME/.gnupg/ownertrust-gpg.txt
+
+# Reveal git secrets
+git secret reveal
+
+# Link SSH config
+mkdir $HOME/.ssh
+[ -e $DOTFILES/ssh_config ] && ln -sfn $HOME/.dotfiles/ssh_config $HOME/.ssh/config
+
 # Set default MySQL root password and auth type
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
