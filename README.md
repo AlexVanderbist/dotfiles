@@ -7,7 +7,7 @@
 - `git clone git@github.com:AlexVanderbist/mackup.git ~/.mackup-repo`
 - `mackup restore`
 
-⚠️ Don't forget Raycast
+⚠️ Manually export Raycast & TablePlus configs
 
 ## Credits
 
