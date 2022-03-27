@@ -34,6 +34,9 @@ ln -sfn $HOME/.dotfiles/.vimrc $HOME/.vimrc
 ln -sfn $HOME/.dotfiles/.global-gitignore $HOME/.global-gitignore
 ln -sfn $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
+# Hide "last login" line when starting a new terminal session
+touch $HOME/.hushlogin
+
 info "Updating Homebrew recipes..."
 brew update
 
