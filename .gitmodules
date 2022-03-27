@@ -1,5 +1,5 @@
 [submodule "plugins/zsh-artisan"]
-	path = plugins/zsh-artisan
+	path = plugins/artisan
 	url = https://github.com/jessarcher/zsh-artisan.git
 [submodule "plugins/zsh-autosuggestions"]
 	path = plugins/zsh-autosuggestions
