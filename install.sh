@@ -8,6 +8,9 @@ info() {
 
 info "Setting up your Mac..."
 
+info "Close submodules for .dotfiles repo..."
+git submodule update --recursive --init
+
 # Check for Oh My Zsh and install if we don't have it
 if test ! $(which omz); then
     info "Installing Oh My Zsh!..."
