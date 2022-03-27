@@ -27,8 +27,6 @@ brew 'stripe/stripe-cli/stripe'
 brew 'svn' # Needed to install fonts
 brew 'doctl'
 brew 'wget'
-brew 'gpg'
-brew 'git-secret'
 brew 'thefuck'
 
 # Spatie Medialibrary

@@ -40,21 +40,8 @@ brew tap homebrew/bundle
 info "Installing Brewfile..."
 brew bundle --file $DOTFILES/Brewfile
 
-info "Installing GPG keys..."
-mkdir $HOME/.gnupg
-chown -R $(whoami) $HOME/.gnupg/
-chmod 700 ~/.gnupg
-chmod 600 ~/.gnupg/*
-[ -e $HOME/.gnupg/private.gpg ] && gpg --import-options restore --import $HOME/.gnupg/private.gpg
-[ -e $HOME/.gnupg/ownertrust-gpg.txt ] && gpg --import-ownertrust $HOME/.gnupg/ownertrust-gpg.txt
-
-# Reveal git secrets
-git secret reveal
-
-info "Linking SSH config..."
-mkdir $HOME/.ssh
-[ -e $DOTFILES/ssh_config ] && ln -sfn $HOME/.dotfiles/ssh_config $HOME/.ssh/config
-
+info "Installing fzf for Oh My Zsh!..."
+$(brew --prefix)/opt/fzf/install
 info "Installing PHP extensions with PECL..."
 pecl install imagick redis swoole
 
