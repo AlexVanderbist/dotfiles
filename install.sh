@@ -55,7 +55,7 @@ info "Installing PHP extensions with PECL..."
 pecl install imagick redis swoole
 
 info "Installing global Composer packages..."
-/usr/local/bin/composer global require laravel/installer laravel/valet spatie/global-ray laravel/envoy laravel/vapor-cli
+/opt/homebrew/bin/composer  global require laravel/installer laravel/valet spatie/global-ray laravel/envoy laravel/vapor-cli
 
 info "Installing Laravel Valet..."
 $HOME/.composer/vendor/bin/valet install

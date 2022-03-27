@@ -3,6 +3,7 @@
 ## Installation
 
 - `git clone git@github.com:alexvanderbist/dotfiles.git ~/.dotfiles`
+- `git submodule update --recursive`
 - download `private.gpg` and `ownertrust-gpg.txt` from 1pass and place inside `~/.gnupg`
 - `~/.dotfiles/install.sh`
 
@@ -17,3 +18,4 @@
 - https://github.com/mathiasbynens/dotfiles
 - https://github.com/freekmurze/dotfiles
 - https://github.com/driesvints/dotfiles
+

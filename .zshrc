@@ -9,7 +9,7 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
-plugins=(artisan git composer zsh-z osx zsh-autosuggestions thefuck)
+plugins=(artisan git composer zsh-z macos zsh-autosuggestions thefuck)
 
 source $ZSH/oh-my-zsh.sh
 

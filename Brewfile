@@ -24,12 +24,12 @@ brew 'kubernetes-cli'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'sshuttle'
 brew 'stripe/stripe-cli/stripe'
-brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn' # Needed to install fonts
 brew 'doctl'
 brew 'wget'
 brew 'gpg'
 brew 'git-secret'
+brew 'thefuck'
 
 # Spatie Medialibrary
 brew 'jpegoptim'
