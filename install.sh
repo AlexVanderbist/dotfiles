@@ -41,6 +41,10 @@ info "Installing Brewfile..."
 brew bundle --file $DOTFILES/Brewfile
 
 info "Installing GPG keys..."
+mkdir $HOME/.gnupg
+chown -R $(whoami) $HOME/.gnupg/
+chmod 700 ~/.gnupg
+chmod 600 ~/.gnupg/*
 [ -e $HOME/.gnupg/private.gpg ] && gpg --import-options restore --import $HOME/.gnupg/private.gpg
 [ -e $HOME/.gnupg/ownertrust-gpg.txt ] && gpg --import-ownertrust $HOME/.gnupg/ownertrust-gpg.txt
 
