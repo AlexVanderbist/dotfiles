@@ -12,3 +12,5 @@ ZSH_THEME="robbyrussell"
 plugins=(artisan git composer zsh-z macos zsh-autosuggestions thefuck)
 
 source $ZSH/oh-my-zsh.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
