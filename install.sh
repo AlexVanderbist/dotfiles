@@ -56,6 +56,7 @@ info "Installing global Composer packages..."
 
 info "Installing Laravel Valet..."
 $HOME/.composer/vendor/bin/valet install
+sudo valet trust
 
 info "Installing Global Ray..."
 $HOME/.composer/vendor/bin/global-ray install
