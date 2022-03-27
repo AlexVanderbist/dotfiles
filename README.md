@@ -7,6 +7,8 @@
 - `git clone git@github.com:AlexVanderbist/mackup.git ~/.mackup-repo`
 - `mackup restore`
 
+⚠️ Don't forget Raycast
+
 ## Credits
 
 - https://github.com/mathiasbynens/dotfiles
