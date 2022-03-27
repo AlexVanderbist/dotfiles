@@ -1,7 +1,7 @@
 # Dotfiles
 
 TODO:
--install script
+- SSH config in git secrets?
 
 ## Credits
 

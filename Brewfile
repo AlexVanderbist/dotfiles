@@ -71,6 +71,8 @@ cask 'visual-studio-code'
 # Quicklook
 cask 'qlmarkdown'
 cask 'quicklook-json'
+cask 'qlstephen'
+cask 'quicklook-csv'
 
 # Fonts
 cask 'font-lato'
