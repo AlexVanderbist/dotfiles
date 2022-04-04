@@ -5,9 +5,11 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
 tap 'stripe/stripe-cli'
+tap 'elastic/tap'
 
 # Binaries
 brew 'awscli'
+brew 'artillery'
 brew 'bash' # Latest Bash version
 brew 'bat' # Used for spatie/visit
 brew 'coreutils' # Those that come with macOS are outdated
@@ -29,6 +31,7 @@ brew 'svn' # Needed to install fonts
 brew 'doctl'
 brew 'wget'
 brew 'thefuck'
+brew 'fluxcd/tap/flux'
 
 # Spatie Medialibrary
 brew 'jpegoptim'
@@ -47,6 +50,7 @@ brew 'node'
 brew 'redis'
 brew 'yarn'
 brew 'go'
+brew 'elastic/tap/elasticsearch-full'
 
 # Apps
 cask '1password'
@@ -65,11 +69,11 @@ cask 'raycast'
 cask 'slack'
 cask 'spotify'
 cask 'tableplus'
-cask 'telegram-desktop'
 cask 'tinkerwell'
 cask 'transmit'
 cask 'tuple'
 cask 'visual-studio-code'
+cask 'google-cloud-sdk'
 
 # Quicklook
 cask 'qlmarkdown'

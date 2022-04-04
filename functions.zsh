@@ -84,3 +84,4 @@ function scheduler () {
 function silent() {
    "$@" >& /dev/null
 }
+
