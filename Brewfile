@@ -23,7 +23,6 @@ brew 'helm'
 brew 'httpie'
 brew 'jq' # Used for spatie/visit
 brew 'kubernetes-cli'
-brew 'mackup'
 brew 'ngrok'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'sshuttle'

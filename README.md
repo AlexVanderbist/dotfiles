@@ -4,10 +4,13 @@
 
 - `git clone git@github.com:alexvanderbist/dotfiles.git ~/.dotfiles`
 - `~/.dotfiles/install.sh`
-- `git clone git@github.com:AlexVanderbist/mackup.git ~/.mackup-repo`
-- `mackup restore`
 
-⚠️ Manually export Raycast & TablePlus configs
+⚠️ Manually export:
+- Raycast config
+- TablePlus config
+- `~/.ssh/config`
+- `~/.wakatime.cfg`
+- `~/.composer/auth.json`
 
 ## Credits
 

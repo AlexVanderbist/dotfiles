@@ -31,8 +31,8 @@ fi
 info "(Re-)linking dotfiles..."
 ln -sfn $HOME/.dotfiles/.zshrc $HOME/.zshrc
 ln -sfn $HOME/.dotfiles/.vimrc $HOME/.vimrc
+ln -sfn $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
 ln -sfn $HOME/.dotfiles/.global-gitignore $HOME/.global-gitignore
-ln -sfn $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
 # Hide "last login" line when starting a new terminal session
 touch $HOME/.hushlogin
