@@ -20,7 +20,7 @@ function weather() {
 
 #  Commit everything
 function commit() {
-  commitMessage="$1"
+  commitMessage="$*"
 
   if [ "$commitMessage" = "" ]; then
      commitMessage="wip"
