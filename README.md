@@ -6,11 +6,11 @@
 - `~/.dotfiles/install.sh`
 
 ⚠️ Manually export:
-- Raycast config
-- TablePlus config
-- `~/.ssh/config`
-- `~/.wakatime.cfg`
-- `~/.composer/auth.json`
+- [ ] Raycast config
+- [ ] TablePlus config
+- [ ] `~/.ssh/config`
+- [ ] `~/.wakatime.cfg`
+- [ ] `~/.composer/auth.json`
 
 ## Credits
 
