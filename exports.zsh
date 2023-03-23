@@ -21,3 +21,6 @@ export LESS_TERMCAP_md="$ORANGE"
 
 # Always enable colored `grep` output
 export GREP_OPTIONS="--color=auto"
+
+# Temp for GCLOUD auth plugin updates
+export USE_GKE_GCLOUD_AUTH_PLUGIN=True

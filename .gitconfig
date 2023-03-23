@@ -3,5 +3,17 @@
 [user]
 	name = Alex Vanderbist
 	email = alex.vanderbist@gmail.com
+	signingkey = 566BEEB573423B6B3123573AB58500FA21600E2E
 [pull]
 	rebase = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[gpg]
+	program = /opt/homebrew/bin/gpg

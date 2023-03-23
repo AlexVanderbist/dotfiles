@@ -15,3 +15,6 @@ export PATH="$HOME/.yarn/bin:$PATH"
 
 # Load Go global installed binaries
 export PATH="$HOME/go/bin:$PATH"
+
+# Python binaries for python3
+export PATH="/opt/homebrew/opt/python@3.9/libexec/bin:$PATH"

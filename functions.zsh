@@ -3,6 +3,19 @@ function digga() {
 	dig +nocmd "$1" any +multiline +noall +answer
 }
 
+
+function writehex  ()
+{
+    local i
+    while [ "$1" ]; do
+        for ((i=0; i<${#1}; i+=2))
+        do
+            printf "\x${1:i:2}";
+        done;
+        shift;
+    done
+}
+
 #shortcut voor zhs quick-look command
 function ql() {
    quick-look "$1"
@@ -98,3 +111,7 @@ function toggle-dock() {
     defaults write com.apple.dock no-bouncing -bool TRUE && killall Dock
 }
 
+
+function gch() {
+  git checkout $(git branch -all | fzf | tr -d '[:space:]')
+}
